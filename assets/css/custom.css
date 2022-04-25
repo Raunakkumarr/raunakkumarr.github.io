@@ -109,8 +109,8 @@ header.is-scrolling .navbar-container{
 }
 
 .lg-nav a:hover{
-	color: black;
-	border: solid 1px white;
+	text-decoration:underline;
+	text-decoration-color:#6a0dad;
 }
 
 .showNavBtn{
