@@ -68,26 +68,11 @@
 				<button class="dynamic_resume_btn"><a href="./resume.html">Dynamic Resume </a></button>
 			</div>
 			<h4 style="color:#4549F5; text-align: center; font-size:20px; font-family: 'Gideon Roman', cursive; font-weight:600; line-height:1;">Check these cards for more information:</h4>
-			<div class="accordian" style="display: none;">
-				<h2>Accordion</h2>
-				<button class="accordion">Section 1</button>
-				<div class="panel">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<button class="accordion">Section 2</button>
-				<div class="panel">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-				<button class="accordion">Section 3</button>
-				<div class="panel">
-					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
-			</div>
 			<div class="container">
 				<div class="row" style="padding-top:5px; padding-bottom:5px;">
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="LinedIn_Profile_Card">
 						<div class="profile-badge profile-badge--dark" dir="ltr">
-      				<div class="profile-badge__header-dark">
+							<div class="profile-badge__header-dark">
 								<span class="sr-only">LinkedIn</span>
 								<icon class="profile-badge__header-logo-icon-dark" aria-hidden="true">
 									<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 84 21" preserveAspectRatio="xMinYMin meet" version="1.1" focusable="false">
@@ -107,17 +92,17 @@
 								</icon>
 							</div>
 							<div class="profile-badge_content">
-								<img class="profile-badge_content-profile-image" src="https://media-exp1.licdn.com/dms/image/C5603AQE0m4702kM_DA/profile-displayphoto-shrink_200_200/0/1593626972327?e=1650499200&amp;v=beta&amp;t=B0Wb1rfToZDpi_RXAXDkvNriI1W3S5nRhTWGgAU7sXw" alt="Raunak Kumar">
+								<img class="profile-badge_content-profile-image" src="https://media.licdn.com/dms/image/C5635AQEvoAiSEWSQkA/profile-framedphoto-shrink_400_400/0/1618337473872?e=1676746800&v=beta&t=oLVTl4qZZ2MhzAPiH6DhVCMZG4EaVqsdwbmjrTy9tM4" alt="Raunak Kumar">
 								<h3 class="profile-badge_content-profile-name" itemprop="name">
 									<a class="profile-badge_content-profile-name-link" href="https://np.linkedin.com/in/raunak-kumar-57409a170?trk=public-profile-badge-profile-badge-profile-name" data-tracking-control-name="public-profile-badge-profile-badge-profile-name" data-tracking-will-navigate="">
 										Raunak Kumar
 									</a>
 								</h3>
 								<h4 class="profile-badge_content-profile-headline">
-									President at Ask Mattrab
+									Business Lead at Ask Mattrab
 								</h4>
 								<h4 class="profile-badge_content-profile-company-school-info">
-									<a href="https://www.linkedin.com/company/askmattrab?trk=public-profile-badge-profile-badge_company-name" class="profile-badge_content-profile-company-school-info-link" data-tracking-control-name="public-profile-badge-profile-badge_company-name" data-tracking-will-navigate="true">Ask Mattrab</a> | <a href="https://www.linkedin.com/school/sxc/?trk=public-profile-badge-profile-badge_school-name" class="profile-badge_content-profile-company-school-info-link" data-tracking-control-name="public-profile-badge-profile-badge_school-name" data-tracking-will-navigate="true">St. Xavier's College, Maitighar</a>
+									<a href="https://www.linkedin.com/company/askmattrab?trk=public-profile-badge-profile-badge_company-name" class="profile-badge_content-profile-company-school-info-link" data-tracking-control-name="public-profile-badge-profile-badge_company-name" data-tracking-will-navigate="true">Ask Mattrab</a> | <a href="https://www.linkedin.com/school/tribhuvan-university-institute-of-engineering-pulchowk-campus/" class="profile-badge_content-profile-company-school-info-link" data-tracking-control-name="public-profile-badge-profile-badge_school-name" data-tracking-will-navigate="true">TU, IOE, Pulchowk Campus</a>
 								</h4>
 							</div>
 							<a class="profile-badge_cta-btn" href="https://np.linkedin.com/in/raunak-kumar-57409a170?trk=public-profile-badge-profile-badge-view-profile-cta" target="_blank" data-tracking-control-name="public-profile-badge-profile-badge-view-profile-cta" data-tracking-will-navigate="">
@@ -127,7 +112,7 @@
 					</div>
 					<div class="col-lg-4 col-md-6 col-sm-6 col-xs-12" id="my_resume">
 						<div class="resume-badge" dir="ltr">
-      				<div class="resume-badge_header-dark">
+      						<div class="resume-badge_header-dark">
 								<span class="resume-sr-only">My Resume</span>
 							</div>
 							<div class="resume-badge_content">
@@ -737,9 +722,9 @@
 				</div>
 				<div class="copyright">
 					<h5>RM © 2022
-						<select class="version-select">
+						<select onchange="myFunction(this)" class="version-select">
 							<option value="2" selected>v2.O</option>
-							<option value="1" disabled>v1</option>
+							<option value="1" id="v1option">v1</option>
 						</select>
 					</h5>
 					<img class="copyright-img" src="./assets/images/signature.png" alt="Signature" width="35" height="35">
@@ -780,6 +765,17 @@
 				}
 			});
 		});
+		function myFunction(version) {
+			versionSelected = version.value;
+			console.log(versionSelected);
+			if (versionSelected == '2') {
+				alert("Its the same version you're currently viewing");
+			} else if (versionSelected == '1') {
+				window.location.assign('https://v1.raunakmishra.com.np/');
+			} else {
+				alert('Please select a valid version.')
+			}
+		}
 	</script>
 </body>
 </html>
